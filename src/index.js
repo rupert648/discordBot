@@ -6,7 +6,7 @@ const commandHandler = require('./commands');
 const client = new Client();
 
 client.once('ready', () => {
-    console.log('bot ready');
+    console.log('bot ready');   
 });
 
 client.on('message', commandHandler);
